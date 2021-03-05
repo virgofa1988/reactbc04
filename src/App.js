@@ -15,8 +15,8 @@ import Databinding from "./DataBinding/Databinding";
 function App() {
   return (
     <div className="App bg-dark text-warning">
-      {/* <BT1Layout /> */}
-      <Databinding />
+      <BT1Layout />
+      {/* <Databinding /> */}
     </div>
   );
 }
