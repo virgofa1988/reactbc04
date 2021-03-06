@@ -11,12 +11,14 @@ import BT1LaptopList from "./Components/BaiTapLayout1/BT1LaptopList";
 import BT1Footer from "./Components/BaiTapLayout1/BT1Footer";
 import BT1Layout from "./Components/BaiTapLayout1/BT1Layout";
 import Databinding from "./DataBinding/Databinding";
+import BTThucHanhLayout from "./Components/BaiTapThucHanhLayOut/BTThucHanhLayout";
 
 function App() {
   return (
-    <div className="App bg-dark text-warning">
-      <BT1Layout />
+    <div className="App">
+      {/* <BT1Layout /> */}
       {/* <Databinding /> */}
+      <BTThucHanhLayout />
     </div>
   );
 }
