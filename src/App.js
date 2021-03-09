@@ -12,13 +12,22 @@ import BT1Footer from "./Components/BaiTapLayout1/BT1Footer";
 import BT1Layout from "./Components/BaiTapLayout1/BT1Layout";
 import Databinding from "./DataBinding/Databinding";
 import BTThucHanhLayout from "./Components/BaiTapThucHanhLayOut/BTThucHanhLayout";
+// import eventComponent from "./Components/DemoComponent/eventComponent";
+import Event from "./Components/DemoComponent/Event";
+import CarColorChange from "./Components/DemoComponent/CarColorChange";
+import BaiTapVongLap from "./Components/DemoComponent/BaiTapVongLap";
+import BaiTapVongLap_1 from "./Components/DemoComponent/BaiTapVongLap_1";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-secondary" >
       {/* <BT1Layout /> */}
       {/* <Databinding /> */}
-      <BTThucHanhLayout />
+      {/* <BTThucHanhLayout /> */}
+      {/* <Event /> */}
+      {/* <CarColorChange /> */}
+      {/* <BaiTapVongLap /> */}
+      <BaiTapVongLap_1 />
     </div>
   );
 }
