@@ -15,28 +15,28 @@ export default class BT1Slider extends Component {
           <li data-target="#demo" data-slide-to={2} className />
         </ul>
         {/* The slideshow */}
-        <div className="carousel-inner">
-          <div className="carousel-item active">
+        <div className="carousel-inner text-center">
+          <div className="carousel-item active m-auto">
             <img
               src="./img/slide_1.jpg"
               alt="Los Angeles"
-              width="100%"
+              className="img-fluid"
               height={500}
             />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item m-auto ">
             <img
               src="./img/slide_2.jpg"
               alt="Chicago"
-              width="100%"
+              className="img-fluid"
               height={500}
             />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item m-auto">
             <img
               src="./img/slide_3.jpg"
               alt="New York"
-              width="100%"
+              className="img-fluid"
               height={500}
             />
           </div>

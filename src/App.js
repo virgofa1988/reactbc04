@@ -17,17 +17,27 @@ import Event from "./Components/DemoComponent/Event";
 import CarColorChange from "./Components/DemoComponent/CarColorChange";
 import BaiTapVongLap from "./Components/DemoComponent/BaiTapVongLap";
 import BaiTapVongLap_1 from "./Components/DemoComponent/BaiTapVongLap_1";
+import DemoProps from "./Components/Props/DemoProps";
+import BTTruyenFucntion from "./Components/Props/BTTruyenFunction/BTTruyenFucntion";
+import Count from "./Components/Props/Increment/Count";
+import BTGioHangRedux from "./Components/BTGioHangRedux/BTGioHangRedux";
+import BTGlassTrying from "./Components/BaiTapGlasses/BTGlassTrying";
 
 function App() {
   return (
-    <div className="App bg-secondary" >
+    <div className="App" >
       {/* <BT1Layout /> */}
       {/* <Databinding /> */}
       {/* <BTThucHanhLayout /> */}
       {/* <Event /> */}
       {/* <CarColorChange /> */}
       {/* <BaiTapVongLap /> */}
-      <BaiTapVongLap_1 />
+      {/* <BaiTapVongLap_1 /> */}
+      {/* <DemoProps /> */}
+      {/* <BTTruyenFucntion /> */}
+      {/* <Count /> */}
+      {/* <BTGioHangRedux /> */}
+      <BTGlassTrying />
     </div>
   );
 }

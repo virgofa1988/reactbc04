@@ -2,17 +2,18 @@ import React, { Component } from "react";
 import BT1ProductDetail from "./BT1ProductDetail";
 
 export default class BT1ProductList extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    return (
-      <section id="smartphone" className="container-fluid pt-5 pb-5">
-        <h1 className="text-white text-center">BEST SMARTPHONE</h1>
-        <div className="row container-fluid">
-          <BT1ProductDetail />
-          <BT1ProductDetail />
-          <BT1ProductDetail />
-          <BT1ProductDetail />
-        </div>
-      </section>
-    );
+    let { mangSP, xemChiTiet, themGioHang } = this.props;
+
+    return mangSP.map((sanPham, index) => {
+      return (
+        <BT1ProductDetail key={index} sanPham={sanPham} xemChiTiet={xemChiTiet} themGioHang={themGioHang} />
+      );
+    })
+
   }
 }
