@@ -22,6 +22,7 @@ import BTTruyenFucntion from "./Components/Props/BTTruyenFunction/BTTruyenFucnti
 import Count from "./Components/Props/Increment/Count";
 import BTGioHangRedux from "./Components/BTGioHangRedux/BTGioHangRedux";
 import BTGlassTrying from "./Components/BaiTapGlasses/BTGlassTrying";
+import ChonXeHook from "./Components/Hook/BTChonXeHook/ChonXeHook";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <BTTruyenFucntion /> */}
       {/* <Count /> */}
       {/* <BTGioHangRedux /> */}
-      <BTGlassTrying />
+      {/* <BTGlassTrying /> */}
+      <ChonXeHook />
     </div>
   );
 }
