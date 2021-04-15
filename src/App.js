@@ -23,6 +23,10 @@ import Count from "./Components/Props/Increment/Count";
 import BTGioHangRedux from "./Components/BTGioHangRedux/BTGioHangRedux";
 import BTGlassTrying from "./Components/BaiTapGlasses/BTGlassTrying";
 import ChonXeHook from "./Components/Hook/BTChonXeHook/ChonXeHook";
+import Demo_JSS from "./Components/JSS_StyledComponent/Demo_JSS/Demo_JSS";
+import { DemoTheme } from "./Components/JSS_StyledComponent/Theme/DemoTheme";
+import TodoList from "./Components/JSS_StyledComponent/BaiTapToDoList/TodoList";
+
 
 function App() {
   return (
@@ -39,7 +43,10 @@ function App() {
       {/* <Count /> */}
       {/* <BTGioHangRedux /> */}
       {/* <BTGlassTrying /> */}
-      <ChonXeHook />
+      {/* <ChonXeHook /> */}
+      {/* <Demo_JSS /> */}
+      {/* <DemoTheme /> */}
+      <TodoList />
     </div>
   );
 }
